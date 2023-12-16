@@ -26,3 +26,26 @@ h1 {
     text-align: left; /* 左寄せ */
     width: 100%; /* コンテンツの幅 */
 }
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* ボタンを縦並びに配置 */
+    align-items: center;
+}
+
+.button {
+    display: block; /* ブロック要素に変更して改行させる */
+    margin: 10px 0; /* 上下のマージンを設定 */
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px; /* ボタンの幅を固定 */
+}
+
+.button:hover {
+    background-color: #ff85c1;
+}
+
