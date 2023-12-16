@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* 中央寄せ */
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 80%; /* コンテナの幅 */
+    max-width: 800px; /* 最大幅 */
+    margin-top: 20%; /* タイトルを上部の20%の位置に設定 */
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 30px; /* タイトルとボタン間の間隔 */
+}
+
+#content {
+    text-align: left; /* 左寄せ */
+    width: 100%; /* コンテンツの幅 */
+}

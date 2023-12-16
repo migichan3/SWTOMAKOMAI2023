@@ -19,7 +19,7 @@ const productsData = [
 function loadProductData() {
     let content = '';
 
-    productsData.forEach(product => {
+    productsData.slice(0, 3).forEach(product => {
         content += `<h3>商品名：${product.productName}</h3>`;
         content += `<p>口コミ：${product.comment}</p>`;
         content += `<p>レビュー：${product.review}</p>`;
