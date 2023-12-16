@@ -23,7 +23,6 @@ function loadProductData() {
         content += `<h3>商品名：${product.productName}</h3>`;
         content += `<p>口コミ：${product.comment}</p>`;
         content += `<p>レビュー：${product.review}</p>`;
-        content += `<img src="${product.img}" alt="${product.productName}" style="width: 300px;">`;
     });
 
     content += '<button onclick="location.href=\'detail.html\'">詳細を見る</button>';
