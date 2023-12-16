@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    margin-top: 20%; /* タイトルを上部の20%の位置に設定 */
+}
+
+h1 {
+    color: #444;
+    margin-bottom: 30px; /* タイトルとボタン間の間隔 */
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* ボタンを縦並びに配置 */
+    align-items: center;
+}
+
+.button {
+    display: block; /* ブロック要素に変更して改行させる */
+    margin: 10px 0; /* 上下のマージンを設定 */
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px; /* ボタンの幅を固定 */
+}
+
+.button:hover {
+    background-color: #ff85c1;
+}
