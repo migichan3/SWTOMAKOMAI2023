@@ -2,6 +2,7 @@ h1 {
     color: #444;
     margin-bottom: 30px; /* タイトルとボタン間の間隔 */
     background-color: #ffffff;
+    padding: 10px;
 }
 
 body {
@@ -27,6 +28,20 @@ body {
     cursor: pointer;
     width: 50px; /* 画像の幅を設定 */
     height: 70px; /* 画像の高さを設定 */
+}
+
+.pin-text {
+    position: absolute;
+    top: 30%; /* ピンの下部にテキストを配置 */
+    left: 50%; /* 中央揃え */
+    transform: translate(-50%, -50%);
+    color: #444; /* テキストの色 */
+    font-size: 0.9em;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 
 #customDialog {
