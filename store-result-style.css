@@ -87,3 +87,26 @@ button {
 button:hover {
     background-color: #ff85c1; /* ホバー時の背景色 */
 }
+
+.buttons {
+    position: fixed; /* 固定位置 */
+    bottom: 5%; 
+    left: 50%; /* 中央揃え */
+    transform: translateX(-50%); /* X軸方向のみ中央揃え */
+    display: flex;
+    flex-direction: column; /* ボタンを縦並びに配置 */
+    align-items: center;
+}
+
+.backButton {
+    display: block; /* ブロック要素に変更して改行させる */
+    margin: 10px 0; /* 上下のマージンを設定 */
+    padding: 10px 20px;
+    background-color: #ff69b4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 200px; /* ボタンの幅を固定 */
+    text-align: center; /* テキストを中央揃えにする */
+}
